@@ -33,11 +33,13 @@ pred = clf.predict(features_test)
 #########################################################
 
 
+print(pred[10])
+print(pred[26])
+print(pred[50])
 
+#from sklearn.metrics import accuracy_score
+#acc = accuracy_score(pred, labels_test)
 
-from sklearn.metrics import accuracy_score
-acc = accuracy_score(pred, labels_test)
-
-print(acc)
-def submitAccuracy():
-    return acc
+#print(acc)
+#def submitAccuracy():
+#    return acc
